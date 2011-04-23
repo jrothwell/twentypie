@@ -146,7 +146,7 @@ span.linked-list-banner {
 /* Menu
  * NB: Plagiarised from the "Duster" theme by permission. */
  
- #access {
+#access {
 	background: #222;
 	background: -moz-linear-gradient(#252525, #0a0a0a);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a));
