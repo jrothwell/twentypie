@@ -92,17 +92,17 @@ span.linked-list-banner {
 /* Hangers */
 .hanger-clearer
 {
-	clear;
+	clear:both;
 }
 
 .link-entry
 {
-	clear;
+	clear:both;
 }
 
 .hanger-total
 {
-	clear;
+	clear:both;
 }
 
 .link-cap-hanger
