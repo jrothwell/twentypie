@@ -236,3 +236,7 @@ span.linked-list-banner {
 #access ul li.current-menu-parent > a {
 	color: #40826D;
 }
+
+#access li:hover > a, #access ul ul :hover > a {
+	color: #40826D;
+}
