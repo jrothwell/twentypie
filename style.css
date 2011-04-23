@@ -50,6 +50,7 @@ span.sans-emph {
 span.ico-emph {
 	float: left;
 	width: 20px;
+	text-align: center;
 }
 
 /* =Linked List
