@@ -88,3 +88,83 @@ span.linked-list-banner {
 .comment-banner a:hover {
 	color: #ff4b33;
 }
+
+/* Menu
+ * NB: Plagiarised from the "Duster" theme by permission. */
+ 
+ #access {
+	background: #222;
+	background: -moz-linear-gradient(#252525, #0a0a0a);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a));
+	background: -webkit-linear-gradient(#252525, #0a0a0a);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 auto 6px;
+	width: 100%;
+}
+#access ul {
+	font-size: 13px;
+	list-style: none;
+	margin: 0 0 0 -0.8125em;
+	padding-left: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #eee;
+	display: block;
+	line-height: 3.333em;
+	padding: 0 1.2125em;
+	text-decoration: none;
+}
+#access ul ul {
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	float: left;
+	margin: 0;
+	position: absolute;
+		top: 3.333em;
+		left: 0;
+	width: 188px;
+	z-index: 99999;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #f9f9f9; 
+	border-bottom: 1px dotted #ddd; 
+	color: #444; 
+	font-size: 13px; 
+	font-weight: normal;
+	height: auto;
+	line-height: 1em; 
+	padding: 10px 10px; 
+	width: 168px; 
+}
+#access li:hover > a, 
+#access ul ul :hover > a { 
+	background: #efefef; 
+}
+#access li:hover > a {
+	background: #f9f9f9;
+	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5));
+	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	color: #333;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+#access .current_page_item a {
+	font-weight: bold;
+}
