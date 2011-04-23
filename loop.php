@@ -115,11 +115,18 @@
 			</div><!-- .entry-content -->
 		<?php endif; ?>
 
-			<div class="entry-utility">
-				&#x2731;&nbsp;
-				<?php twentyten_posted_on(); ?>
-				<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
+						<div class="entry-utility">
+				<div class="hanger-total">
+					<div class="entity-hanger">
+						&#x2731;&nbsp;
+					</div>
+					<div class="utility-hanger">
+						<?php twentyten_posted_on(); ?>
+						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
+					</div>
+				</div>
 			</div><!-- .entry-utility -->
+<!-- .entry-utility -->
 		</div><!-- #post-## -->
 
 <?php /* Displaying Linked List posts. */ ?>
@@ -179,9 +186,15 @@
 		<?php endif; ?>
 
 			<div class="entry-utility">
-				&#x2731;&nbsp;
-				<?php twentyten_posted_on(); ?>
-				<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
+				<div class="hanger-total">
+					<div class="entity-hanger">
+						&#x2731;&nbsp;
+					</div>
+					<div class="utility-hanger">
+						<?php twentyten_posted_on(); ?>
+						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
+					</div>
+				</div>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
 

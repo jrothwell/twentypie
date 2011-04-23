@@ -90,11 +90,6 @@ span.linked-list-banner {
 }
 
 /* Hangers */
-.hanger-clearer
-{
-	clear:both;
-}
-
 .link-entry
 {
 	clear:both;
@@ -115,4 +110,17 @@ span.linked-list-banner {
 {
 	float: right;
 	width: 530px;
+}
+
+.entity-hanger
+{
+	float: left;
+	width: 20px;
+	text-align: center;
+}
+
+.utility-hanger
+{
+	float: right;
+	width: 620px;
 }
