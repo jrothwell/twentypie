@@ -44,6 +44,12 @@ p.copycredit
 
 span.sans-emph {
 	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	padding-left: 0px;
+}
+
+span.ico-emph {
+	float: left;
+	width: 20px;
 }
 
 /* =Linked List
@@ -129,4 +135,9 @@ span.linked-list-banner {
 {
 	float: right;
 	width: 620px;
+}
+
+.hanger-clearer
+{
+	clear: both;
 }

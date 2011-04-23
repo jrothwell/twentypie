@@ -59,7 +59,7 @@
 
 
 				<?php comments_template( '', true ); ?>
-				<p class="comment-banner"><span class="sans-emph">&#9990;&nbsp; Jonathan welcomes your comments...</span> <em>via any of <a href="<?php echo CONTACT_URL; ?>" title="Contact Me">these old-fashioned methods</a></em>.</p>
+				<p class="comment-banner"><span class="sans-emph"><span class="ico-emph">&#9990;</span> Jonathan welcomes your comments...</span> <em>via any of <a href="<?php echo CONTACT_URL; ?>" title="Contact Me">these old-fashioned methods</a></em>.</p>
 
 				</div><!-- #post-## -->
 
