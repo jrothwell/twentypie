@@ -143,8 +143,12 @@
 					<em><?php echo the_title(); ?></em></a>
 			<?php 	} ?>
 			</div> <!-- link hanger -->
+			<div class="hanger-clearer">&nbsp;</div>
 				<?php the_excerpt(); ?> &#x2731;&nbsp;<?php twentyten_posted_on(); ?>
 			</div><!-- .entry-summary -->
+			
+			
+			
 		<?php else : ?>
 			<div class="entry-content">
 				<div class="link-cap-hanger"><span class="linked-list-banner">LINKED LIST:</span></div>
@@ -163,6 +167,7 @@
 					<em><?php echo the_title(); ?></em></a>
 			<?php 	} ?>
 			</div> <!-- link hanger -->
+			<div class="hanger-clearer">&nbsp;</div>
 				<?php the_content( __( 'Read on <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
 			</div><!-- .entry-content -->
 		<?php endif; ?>

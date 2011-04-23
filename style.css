@@ -90,6 +90,11 @@ span.linked-list-banner {
 }
 
 /* Hangers */
+.hanger-clearer
+{
+	clear;
+}
+
 .link-cap-hanger
 {
 	float: left;
