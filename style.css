@@ -218,6 +218,9 @@ span.linked-list-banner {
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 	color: #40826D;
 }
+#access li:hover > a.hover {
+	color: #40826D;
+}
 #access ul li:hover > ul {
 	display: block;
 }
