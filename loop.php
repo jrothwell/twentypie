@@ -171,7 +171,6 @@
 					<em><?php echo the_title(); ?></em></a>
 			<?php 	} ?>
 			</div> <!-- link hanger -->
-			<div class="hanger-clearer">&nbsp;</div>
 			</div> <!-- hanger-total -->
 				<div class="link-entry">
 					<?php the_content( __( 'Read on <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
