@@ -90,6 +90,12 @@ span.linked-list-banner {
 }
 
 /* Hangers */
+
+.entry-utility
+{
+	clear: both;
+}
+
 .link-entry
 {
 	clear:both;
