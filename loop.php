@@ -144,7 +144,9 @@
 			<?php 	} ?>
 			</div> <!-- link hanger -->
 			<div class="hanger-clearer">&nbsp;</div>
-				<?php the_excerpt(); ?> &#x2731;&nbsp;<?php twentyten_posted_on(); ?>
+				<div class="link-entry">
+					<?php the_excerpt(); ?> &#x2731;&nbsp;<?php twentyten_posted_on(); ?>
+				</div> <!-- link-entry -->
 			</div><!-- .entry-summary -->
 			
 			
@@ -168,7 +170,9 @@
 			<?php 	} ?>
 			</div> <!-- link hanger -->
 			<div class="hanger-clearer">&nbsp;</div>
-				<?php the_content( __( 'Read on <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
+				<div class="link-entry">
+					<?php the_content( __( 'Read on <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
+				</div>
 			</div><!-- .entry-content -->
 		<?php endif; ?>
 
