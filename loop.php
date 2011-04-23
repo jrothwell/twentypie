@@ -244,7 +244,7 @@
 					</div>
 				</div>
 				
-				&nbsp;
+				<div class="hanger-clearer"> </div>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
 
