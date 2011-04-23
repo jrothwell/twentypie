@@ -220,7 +220,7 @@ span.linked-list-banner {
 }
 #access li:hover > a.hover,
 #access ul li:hover > a.hover,
-#access ul.children li:hover > a.hover, {
+#access ul.children li:hover > a.hover {
 	color: #40826D;
 }
 #access ul li:hover > ul {
