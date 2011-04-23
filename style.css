@@ -142,9 +142,11 @@ span.linked-list-banner {
 .hanger-clearer
 {
 	clear: both;
+}
 
 /* Menu
- * NB: Plagiarised from the "Duster" theme by permission. */
+ * NB -- parts plagiarised from Duster
+ */
  
 #access {
 	background: #222;
