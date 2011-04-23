@@ -244,7 +244,7 @@
 					</div>
 				</div>
 				
-				&sect;
+				&nbsp;
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
 
