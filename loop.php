@@ -129,7 +129,7 @@
 
 		<?php if ( is_archive() || is_search() ) : // Display excerpts for archives and search. ?>
 			<div class="entry-summary">
-				<span class="linked-list-banner">LINKED LIST:</span>
+				<div class="link-cap-hanger"><span class="linked-list-banner">LINKED LIST:</span></div>
 <div class="link-hanger">
 <!-- dealing with empty links -->
 
@@ -147,7 +147,7 @@
 			</div><!-- .entry-summary -->
 		<?php else : ?>
 			<div class="entry-content">
-				<span class="linked-list-banner">LINKED LIST:</span> 
+				<div class="link-cap-hanger"><span class="linked-list-banner">LINKED LIST:</span></div>
 
 
 <div class="link-hanger">

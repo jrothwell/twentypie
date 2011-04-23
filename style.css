@@ -88,3 +88,15 @@ span.linked-list-banner {
 .comment-banner a:hover {
 	color: #ff4b33;
 }
+
+/* Hangers */
+.link-cap-hanger
+{
+	float: left;
+	width: 105px;
+}
+
+.link-hanger
+{
+	float: right;
+}
