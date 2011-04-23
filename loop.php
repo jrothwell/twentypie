@@ -153,6 +153,8 @@
 			
 		<?php else : ?>
 			<div class="entry-content">
+				<div class="hanger-total">
+				
 				<div class="link-cap-hanger"><span class="linked-list-banner">LINKED LIST:</span></div>
 
 
@@ -170,6 +172,7 @@
 			<?php 	} ?>
 			</div> <!-- link hanger -->
 			<div class="hanger-clearer">&nbsp;</div>
+			</div> <!-- hanger-total -->
 				<div class="link-entry">
 					<?php the_content( __( 'Read on <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
 				</div>
