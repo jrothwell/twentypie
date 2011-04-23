@@ -247,3 +247,17 @@ span.linked-list-banner {
 #access li:hover > a, #access ul ul :hover > a {
 	color: #40826D;
 }
+
+/* Correction gubbins */
+p.correction
+{
+	background-color: #ffc0cb;
+	color: #a52a2a;
+}
+
+span.correction-banner
+{
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-weight: bold;
+	color: #ff0000;
+}
