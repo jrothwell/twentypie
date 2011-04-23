@@ -142,6 +142,13 @@ span.linked-list-banner {
 .hanger-clearer
 {
 	clear: both;
+	height: 1px;
+}
+
+
+
+.nav-below {
+	margin-top: 5px;
 }
 
 /* Menu
