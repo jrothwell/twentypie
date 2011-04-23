@@ -52,9 +52,15 @@
 <?php endif; ?>
 
 					<div class="entry-utility">
-&#x2731;&nbsp;
-						<?php twentyten_posted_in(); ?>
-						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
+						<div class="hanger-total">
+							<div class="entity-hanger">
+								&#x2731;
+							</div>
+							<div class="utility-hanger">
+								<?php twentyten_posted_in(); ?>
+								<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
+							</div>
+						</div>
 					</div><!-- .entry-utility -->
 
 
