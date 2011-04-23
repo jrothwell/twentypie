@@ -130,7 +130,7 @@
 		<?php if ( is_archive() || is_search() ) : // Display excerpts for archives and search. ?>
 			<div class="entry-summary">
 				<span class="linked-list-banner">LINKED LIST:</span>
-
+<div class="link-hanger">
 <!-- dealing with empty links -->
 
 				<?php
@@ -142,6 +142,7 @@
 				else { ?>
 					<em><?php echo the_title(); ?></em></a>
 			<?php 	} ?>
+			</div> <!-- link hanger -->
 				<?php the_excerpt(); ?> &#x2731;&nbsp;<?php twentyten_posted_on(); ?>
 			</div><!-- .entry-summary -->
 		<?php else : ?>
@@ -149,6 +150,7 @@
 				<span class="linked-list-banner">LINKED LIST:</span> 
 
 
+<div class="link-hanger">
 <!-- dealing with empty links -->
 
 				<?php
@@ -160,6 +162,7 @@
 				else { ?>
 					<em><?php echo the_title(); ?></em></a>
 			<?php 	} ?>
+			</div> <!-- link hanger -->
 				<?php the_content( __( 'Read on <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
 			</div><!-- .entry-content -->
 		<?php endif; ?>
