@@ -243,6 +243,7 @@
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
 					</div>
 				</div>
+				</div>
 				
 				
 			</div><!-- .entry-utility -->
