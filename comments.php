@@ -75,7 +75,7 @@
 			 */
 			if ( ! comments_open() && ! is_page() ) :
 			?>
-			<p class="nocomments"><?php _e( '&#9990; Jonathan welcomes your comments on this item, via any of <a href="http://notroswell.com/about/contact-me" title="Contact Me">these old-fashioned methods</a>.', 'twentyeleven' ); ?></p>
+			<p class="nocomments"><?php _e( '&#9990; Jonathan welcomes your comments on this item,<br />via any of <a href="http://notroswell.com/about/contact-me" title="Contact Me">these old-fashioned methods</a>.', 'twentyeleven' ); ?></p>
 			<?php endif; // end ! comments_open() && ! is_page() ?>
 
 
