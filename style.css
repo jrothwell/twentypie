@@ -12,3 +12,6 @@ Version:        23.142
 /* import Twenty Ten's styling rule */
 @import url("../twentyeleven/style.css");
 
+#site-generator {
+	background-color: #ECECEC;
+}
