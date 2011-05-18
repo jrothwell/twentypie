@@ -22,7 +22,7 @@
 			?>
 
 			<div id="site-generator">
-				<a href="http://wordpress.org/" rel="generator" title="Proudly powered by WordPress"><img src="wp-content/themes/twentypie/images/w.png" alt="WordPress"/></a> <img src="wp-content/themes/twentypie/images/plus.png" alt="+" /> <a href="http://nearlyfreespeech.net" title="Hosted at NearlyFreeSpeech.Net"><img src="wp-content/themes/twentypie/images/n.png" title="NearlyFreeSpeech.NET" /></a> <img src="wp-content/themes/twentypie/images/eq.png" alt="equals" /> <img src="wp-content/themes/twentypie/images/heart.png" alt="Unadulterated pure brilliance" />
+				<a href="http://wordpress.org/" rel="generator" title="Proudly powered by WordPress"><img src="w.png" alt="WordPress"/></a> <img src="plus.png" alt="+" /> <a href="http://nearlyfreespeech.net" title="Hosted at NearlyFreeSpeech.Net"><img src="n.png" title="NearlyFreeSpeech.NET" /></a> <img src="eq.png" alt="equals" /> <img src="heart.png" alt="Unadulterated pure brilliance" />
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
