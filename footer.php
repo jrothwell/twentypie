@@ -23,7 +23,7 @@
 
 			<div id="site-generator">
 				<p><a href="http://wordpress.org/" rel="generator" title="Proudly powered by WordPress"><img src="http://notroswell.com/wp-content/themes/twentypie/images/w.png" alt="WordPress"/></a> <img src="http://notroswell.com/wp-content/themes/twentypie/images/plus.png" alt="+" /> <a href="http://nearlyfreespeech.net" title="Hosted at NearlyFreeSpeech.Net"><img src="http://notroswell.com/wp-content/themes/twentypie/images/n.png" title="NearlyFreeSpeech.NET" /></a> <img src="http://notroswell.com/wp-content/themes/twentypie/images/eq.png" alt="equals" /> <img src="http://notroswell.com/wp-content/themes/twentypie/images/heart.png" alt="Unadulterated pure brilliance" /></p>
-				<p>&copy; 1992&mdash;2011 Jonathan Rothwell. &nbsp; <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img src="http://notroswell.com/wp-content/themes/twentypie/images/cc-by-nc.png" alt="CC-BY-SA" title="Licenced under CC-BY-NC 3.0" style="vertical-align: middle;" /></a></p>
+				<p><div id="licence_info">&copy; 1992&mdash;2011 Jonathan Rothwell. &nbsp; <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img src="http://notroswell.com/wp-content/themes/twentypie/images/cc-by-nc.png" alt="CC-BY-SA" title="Licenced under CC-BY-NC 3.0" style="vertical-align:middle" /></a></div></p>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
