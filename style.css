@@ -15,3 +15,7 @@ Version:        23.142
 #site-generator {
 	background-color: #ECECEC;
 }
+
+span.sepa {
+	font-weight: bold;
+}
