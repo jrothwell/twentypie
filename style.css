@@ -22,5 +22,8 @@ span.sepa {
 
 .cookies {
 	font-size: 7px;
+	line-height: 100%;
 	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 }
