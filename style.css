@@ -13,7 +13,7 @@ Version:        23.1415
 @import url("../twentyeleven/style.css");
 
 /* Import Google web fonts */
-@import url(http://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather&v2);
+@import url(http://fonts.googleapis.com/css?family=Metrophobic|Merriweather&v2);
 
 #site-generator {
 	background-color: #ECECEC;
@@ -47,7 +47,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-weight: 400;
 	clear: both;
 }
