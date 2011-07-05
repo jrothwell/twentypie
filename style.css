@@ -5,12 +5,15 @@ Description:    Child theme for the Twenty Eleven theme, designed for notroswell
 Author:         Jonathan Rothwell
 Author URI:     http: //notroswell.com
 Template:       twentyeleven
-Version:        23.142
+Version:        23.1415
 */
 
 
 /* import Twenty Ten's styling rule */
 @import url("../twentyeleven/style.css");
+
+/* Import Google web fonts */
+@import url("http://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather&v2");
 
 #site-generator {
 	background-color: #ECECEC;
@@ -26,4 +29,8 @@ span.sepa {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+body {
+	font-family: 'Merriweather', serif;
 }
