@@ -35,7 +35,7 @@ span.sepa {
 
 body, input, textarea {
 	color: #373737;
-	font: 15px font-family: 'Merriweather', serif;
+	font-family: 13px 'Merriweather', serif;
 	font-weight: 400;
 	line-height: 1.625;
 }
