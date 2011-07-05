@@ -31,6 +31,17 @@ span.sepa {
 	margin-right: auto;
 }
 
+/* Redefining globals */
+
+body, input, textarea {
+	color: #373737;
+	font: 15px font-family: 'Merriweather', serif;
+	font-weight: 400;
+	line-height: 1.625;
+}
 body {
-	font-family: 'Merriweather', serif;
+	background: #e2e2e2;
+}
+#page {
+	background: #fff;
 }
