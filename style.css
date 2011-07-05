@@ -13,7 +13,7 @@ Version:        23.1415
 @import url("../twentyeleven/style.css");
 
 /* Import Google web fonts */
-@import url("http://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather&v2");
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather&v2);
 
 #site-generator {
 	background-color: #ECECEC;
