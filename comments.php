@@ -75,7 +75,7 @@
 			 */
 			if ( ! comments_open() && ! is_page() ) :
 			?>
-			<p class="nocomments"><?php _e( '&#9990; Jonathan welcomes your comments on this item,<br />via any of <a href="http://notroswell.com/about/contact-me" title="Contact Me">these old-fashioned methods</a>.<br /><span style="font-size: x-small; font-style: italic;"><a href="http://notroswell.com/about/contact-me/#comoff" title="Jonathan Rothwell: Contact Me (Comments)">(Here is why.)</a></span>', 'twentyeleven' ); ?></p>
+			<p class="nocomments"><?php _e( '&#9990; Jonathan welcomes your comments on this item,<br />via any of <a href="http://notroswell.com/about/contact-me" title="Contact Me">these old-fashioned methods</a>.<br /><span style="font-size: small"><a href="http://notroswell.com/about/contact-me/#comoff" title="Jonathan Rothwell: Contact Me (Comments)">(Here is why.)</a></span>', 'twentyeleven' ); ?></p>
 			<?php endif; // end ! comments_open() && ! is_page() ?>
 
 
