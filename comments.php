@@ -27,7 +27,11 @@
 
 	<?php // You can start editing here -- including this comment! ?>
 
-	<?php if ( have_comments() ) : ?>
+	<?php if ( have_comments() ) : 
+		
+		if ( comments_open() ) _e('<hr /> <br /><strong>Note:</strong> Comments are enabled on this article. <a href="http://notroswell.com/about/contact-me/#commpolicy" title="Comments policy: Jonathan Rothwell">Abuse will <em>not</em> be tolerated and will result in a permanent ban,</a> along with the likelihood that this privilege will not be extended in future.');
+		
+		?>
 		<h2 id="comments-title">
 			<?php
 				printf( _n( 'One response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'twentyeleven' ),
@@ -65,7 +69,9 @@
 
 	<?php else : // this is displayed if there are no comments so far ?>
 
-		<?php if ( comments_open() ) : // If comments are open, but there are no comments ?>
+		<?php if ( comments_open() ) _e('<hr /> <br /><strong>Note:</strong> Comments are enabled on this article. <a href="http://notroswell.com/about/contact-me/#commpolicy" title="Comments policy: Jonathan Rothwell">Abuse will <em>not</em> be tolerated and will result in a permanent ban,</a> along with the likelihood that this privilege will not be extended in future.');
+		
+		?>
 
 		<?php else : // or, if we don't have comments:
 
