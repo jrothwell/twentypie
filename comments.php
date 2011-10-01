@@ -29,7 +29,9 @@
 
 	<?php if ( have_comments() ) : 
 		
-		if ( comments_open() ) _e('<hr /> <br /><strong>Note:</strong> Comments are enabled on this article. <a href="http://notroswell.com/about/contact-me/#commpolicy" title="Comments policy: Jonathan Rothwell">Abuse will <em>not</em> be tolerated and will result in a permanent ban,</a> along with the likelihood that this privilege will not be extended in future.', 'twentyeleven');
+		if ( comments_open() ) :
+			_e('<hr /><footer class="entry-meta"><strong>Note:</strong> Comments are enabled on this article. <a href="http://notroswell.com/about/contact-me/#commpolicy" title="Comments policy: Jonathan Rothwell">Abuse will <em>not</em> be tolerated and will result in a permanent ban,</a> along with the likelihood that this privilege will not be extended in future.</footer><br />', 'twentyeleven');
+		endif;
 		
 		?>
 		<h2 id="comments-title">
@@ -70,7 +72,7 @@
 	<?php else : // this is displayed if there are no comments so far ?>
 
 		<?php if ( comments_open() ) :
-			_e('<hr /><footer class="entry-meta"><strong>Note:</strong> Comments are enabled on this article. <a href="http://notroswell.com/about/contact-me/#commpolicy" title="Comments policy: Jonathan Rothwell">Abuse will <em>not</em> be tolerated and will result in a permanent ban,</a> along with the likelihood that this privilege will not be extended in future.</footer>', 'twentyeleven');
+			_e('<hr /><footer class="entry-meta"><strong>Note:</strong> Comments are enabled on this article. <a href="http://notroswell.com/about/contact-me/#commpolicy" title="Comments policy: Jonathan Rothwell">Abuse will <em>not</em> be tolerated and will result in a permanent ban,</a> along with the likelihood that this privilege will not be extended in future.</footer><br />', 'twentyeleven');
 		
 		?>
 
