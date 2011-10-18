@@ -71,7 +71,11 @@ blockquote {
 
 h1#site-title {
 	font-family: Skyhook;
-	font-size: 140%;
+	font-size: 72pt;
 	font-weight: normal;
 	clear: none;
+}
+
+h1#site-title a {
+	font-weight: normal;
 }
