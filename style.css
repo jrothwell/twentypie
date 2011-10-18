@@ -53,12 +53,12 @@ body {
 
 #access {
 	background: #e2e2e2;
-	color: #000;
-	font-size: 9pt;
 }
 
 #access, h1,h2,h3,h4,h5,h6 {
 	font-family: Skyhook, sans-serif;
+	color: #000;
+	font-size: 9pt;
 }
 
 h1,h2,h3,h4,h5,h6 {
