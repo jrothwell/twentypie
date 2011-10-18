@@ -53,6 +53,9 @@ body {
 
 #access {
 	background: #e2e2e2;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 
 #access, h1,h2,h3,h4,h5,h6 {
