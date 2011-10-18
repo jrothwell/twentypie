@@ -51,8 +51,14 @@ body {
 	background: #fff;
 }
 
-#stripe {
+#redstripe {
 	background-color: #DC143C;
+	width: 100%;
+	position: absolute;
+	height: 3px;
+}
+#orangestripe {
+	background-color: #FFBF00;
 	width: 100%;
 	position: absolute;
 	height: 3px;
