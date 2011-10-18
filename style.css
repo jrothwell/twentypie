@@ -51,10 +51,11 @@ body {
 	background: #fff;
 }
 
-#branding {
-	border-bottom-color: #DC143C;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
+#stripe {
+	background-color: #DC143C;
+	width: 100%;
+	position: absolute;
+	height: 3px;
 }
 
 #access {
