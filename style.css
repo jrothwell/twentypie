@@ -64,10 +64,21 @@ body {
 	font-size: 10pt;
 }
 
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+	background: #efefef;
+}
+#access li:hover > a,
+#access a:focus {
+	background: #eee; /* Show a solid color for older browsers */
+	color: #373737;
+}
+
 #access a {
 	font-family: Skyhook, sans-serif;
 	color: #000;
-	font-size: 11pt;
+	font-size: 10pt;
 }
 
 h1,h2,h3,h4,h5,h6 {
