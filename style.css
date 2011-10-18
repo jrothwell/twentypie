@@ -9,11 +9,17 @@ Version:        23.1415
 */
 
 
-/* import Twenty Ten's styling rule */
+/* import Twenty Eleven's styling rule */
 @import url("../twentyeleven/style.css");
 
 /* Import Google web fonts */
 @import url(http://fonts.googleapis.com/css?family=News+Cycle&v2);
+
+/* Import Skyhook */
+@font-face {
+	font-family: Skyhook;
+	src: url('skyhook.otf');
+}
 
 #site-generator {
 	background-color: #ECECEC;
@@ -54,7 +60,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'News Cycle', sans-serif;
+	font-family: Skyhook, sans-serif;
 	font-weight: 400;
 	clear: both;
 }
