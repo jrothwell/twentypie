@@ -52,6 +52,8 @@ body {
 }
 
 #access {
+	border-top: 2px;
+	border-top-color: #DC143C;
 	background: #e2e2e2;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
