@@ -52,6 +52,7 @@ body {
 }
 
 #access {
+	border-top-style: solid;
 	border-top: 2px;
 	border-top-color: #DC143C;
 	background: #e2e2e2;
