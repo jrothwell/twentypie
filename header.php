@@ -121,7 +121,8 @@
 <div id="redstripe">
 </div>
 	</header><!-- #branding -->
-<div id="orangestripe">
-</div>
+
 
 	<div id="main">
+<div id="orangestripe">
+</div>
