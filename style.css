@@ -60,11 +60,16 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Skyhook, sans-serif;
+	font-family: 'News Cycle', sans-serif;
 	font-weight: 400;
 	clear: both;
 }
 
 blockquote {
 	font-family: Georgia, serif;
+}
+
+h1#site-title {
+	font-family: Skyhook;
+	font-size: 37px;
 }
