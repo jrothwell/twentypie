@@ -116,7 +116,7 @@ h1#site-title a {
 	font-weight: normal;
 }
 
-code {
+code, pre {
 	color: #657b83;
 	background-color: #fdf6e3;
 	font-family: Skyhook;
