@@ -115,3 +115,10 @@ h1#site-title a {
 	font-size: 40pt;
 	font-weight: normal;
 }
+
+code {
+	color: #657b83;
+	background-color: #fdf6e3;
+	font-family: Skyhook;
+	font-size: 9pt;
+}
