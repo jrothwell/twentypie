@@ -12,18 +12,32 @@ Version:        23.1415
 /* import Twenty Eleven's styling rule */
 @import url("../twentyeleven/style.css");
 
-/* Import Google web fonts */
-@import url(http://fonts.googleapis.com/css?family=News+Cycle&v2);
-
 /* Import Skyhook */
 @font-face {
 	font-family: Skyhook;
 	src: url('SkyhookMono.otf');
 }
 
+/* Import Roboto */
 @font-face {
 	font-family: Roboto;
 	src: url('Roboto-Regular.otf');
+}
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Bold.otf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Italic.otf');
+	font-style: italic, oblique;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-BoldItalic.otf');
+	font-style: italic, oblique;
+	font-weight: bold;
 }
 
 #site-generator {
