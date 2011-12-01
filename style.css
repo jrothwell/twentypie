@@ -21,6 +21,11 @@ Version:        23.1415
 	src: url('SkyhookMono.otf');
 }
 
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Regular.otf');
+}
+
 #site-generator {
 	background-color: #ECECEC;
 }
@@ -96,7 +101,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	clear: both;
 }
