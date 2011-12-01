@@ -59,6 +59,7 @@ span.sepa {
 /* Redefining globals */
 
 body, input, textarea {
+	font-family: 'Roboto', sans-serif;
 	color: #373737;
 	font-weight: 400;
 	line-height: 1.625;
