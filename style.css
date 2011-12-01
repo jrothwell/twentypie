@@ -18,7 +18,7 @@ Version:        23.1415
 /* Import Skyhook */
 @font-face {
 	font-family: Skyhook;
-	src: url('skyhook.ttf');
+	src: url('SkyhookMono.otf');
 }
 
 #site-generator {
