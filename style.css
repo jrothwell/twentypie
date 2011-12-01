@@ -22,6 +22,7 @@ Version:        23.1415
 @font-face {
 	font-family: Roboto;
 	src: url('Roboto-Regular.otf');
+	font-style: plain;
 }
 @font-face {
 	font-family: Roboto;
@@ -31,7 +32,12 @@ Version:        23.1415
 @font-face {
 	font-family: Roboto;
 	src: url('Roboto-Italic.otf');
-	font-style: italic, oblique;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Italic.otf');
+	font-style: oblique;
 }
 @font-face {
 	font-family: Roboto;
