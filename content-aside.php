@@ -37,11 +37,11 @@
 
 		<footer class="entry-meta">
 			<?php twentyeleven_posted_on(); ?>
+			<?php do_action( 'wp_plus_one_button', get_permalink(), 'small', null , true ); ?>
 			<?php if ( comments_open() ) : ?>
 			<span class="sep"> | </span>
 			<span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
 			<?php endif; ?>
-			<?php do_action( 'wp_plus_one_button', get_permalink(), 'small', null , true ); ?>
 			<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
 		</footer><!-- #entry-meta -->
 	</article><!-- #post-<?php the_ID(); ?> -->
