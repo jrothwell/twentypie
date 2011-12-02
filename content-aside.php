@@ -37,7 +37,7 @@
 
 		<footer class="entry-meta">
 			<?php twentyeleven_posted_on(); ?>
-			<?php do_action( 'wp_plus_one_button', get_permalink(), 'small', null , true ); ?>
+			<!-- <?php do_action( 'wp_plus_one_button', get_permalink(), 'small', null , true ); ?> -->
 			<?php if ( comments_open() ) : ?>
 			<span class="sep"> | </span>
 			<span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
