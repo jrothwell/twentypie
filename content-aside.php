@@ -41,7 +41,7 @@
 			<span class="sep"> | </span>
 			<span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
 			<?php endif; ?>
-			<?php do_action( 'wp_plus_one_button' ); ?>
+			<?php do_action( 'wp_plus_one_button', get_permalink(), 'small', , true ); ?>
 			<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
 		</footer><!-- #entry-meta -->
 	</article><!-- #post-<?php the_ID(); ?> -->
