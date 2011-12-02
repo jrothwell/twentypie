@@ -152,3 +152,8 @@ code, pre {
 	font-family: Skyhook;
 	font-size: 9pt;
 }
+
+h2#site-description {
+	font-weight: bold;
+	font-style: italic, oblique;
+}
