@@ -72,6 +72,9 @@
 	<header id="branding" role="banner">
 <div id="orangestripe">
 </div>
+<div class="redstripe">
+	<p>PLEASE NOTE: All new posts are being made at <a href="http://rothwell.im">rothwell.im.</a> Please update your bookmarks.</p>
+</div>
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -120,8 +123,7 @@
 				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assiged to the primary position is the one used. If none is assigned, the menu with the lowest ID is used. */ ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #access -->
-<div id="redstripe">
-	<p>PLEASE NOTE: All new posts are being made at <a href="http://rothwell.im">rothwell.im.</a> Please update your bookmarks.</p>
+<div class="redstripe_red">
 </div>
 	</header><!-- #branding -->
 

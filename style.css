@@ -83,13 +83,24 @@ body {
 	background: #fff;
 }
 
-#redstripe {
+.redstripe {
 	background-color: #DC143C;
 	width: 100%;
-	position: absolute;
 	color: #ffffff;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.redstripe a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.redstripe_red {
+	background-color: #DC143C;
+	width: 100%;
+	position: absolute;
+	height: 3px;
 }
 
 #orangestripe {
