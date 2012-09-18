@@ -73,7 +73,7 @@
 <div id="orangestripe">
 </div>
 <div class="redstripe">
-	<p>PLEASE NOTE: All new posts are being made at <a href="http://rothwell.im">rothwell.im.</a> Please update your bookmarks.</p>
+	<p><a href="http://rothwell.im">PLEASE NOTE: All new posts are being made at rothwell.im. Please update your bookmarks.</a></p>
 </div>
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
