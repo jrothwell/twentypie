@@ -121,6 +121,7 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #access -->
 <div id="redstripe">
+	<p>PLEASE NOTE: All new posts are being made at <a href="http://rothwell.im">rothwell.im.</a> Please update your bookmarks.</p>
 </div>
 	</header><!-- #branding -->
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name:     Twenty Pion
 Theme URI:      http: //notroswell.com/
 Description:    Child theme for the Twenty Eleven theme, designed for notroswell.com
@@ -87,7 +87,10 @@ body {
 	background-color: #DC143C;
 	width: 100%;
 	position: absolute;
-	height: 3px;
+	height: 1.9em;
+	font-family: 'Skyhook';
+	font-size: 1.7em;
+	vertical-align: middle;
 }
 
 #orangestripe {
