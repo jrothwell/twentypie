@@ -87,10 +87,9 @@ body {
 	background-color: #DC143C;
 	width: 100%;
 	position: absolute;
-	height: 1.9em;
-	font-family: 'Skyhook';
-	font-size: 1.7em;
+	color: #ffffff;
 	vertical-align: middle;
+	text-align: center;
 }
 
 #orangestripe {
